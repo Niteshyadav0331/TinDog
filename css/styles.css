@@ -1,0 +1,240 @@
+body {
+  font-family: 'Fondamento-Black', cursive;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 2% 15% 4%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0rem 0 2.3rem;
+}
+
+.navbar-brand {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: 'Neucha', cursive;
+  margin: 0 1.3rem;
+  position: relative;
+  left: 1.3rem;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+/* Title Heading  */
+
+.title-heading {
+  font-family: 'Fondamento-Black', cursive;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 29%;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 6.7% 6% 0 0;
+}
+
+ /* feature section  */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-heading {
+  font-family: 'Neucha', cursive;
+  font-weight: bolder;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-family: 'Fondamento-Black', cursive;
+  font-size: 2.3rem;
+  line-height: 1.4;
+  padding: 2rem 0;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1rem 5rem 1rem 3rem;
+  position: relative;
+  left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.carousel-item {
+  padding: 3% 15% 1%;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 0rem 2rem 4rem;
+}
+
+.press-control {
+  padding-top: 5rem;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+.pricing-heading {
+  font-family: 'Pangolin', cursive;
+  font-size: 2.5rem;
+}
+
+.card-header h3 {
+  font-family: 'Pangolin', cursive;
+  font-size: 2rem;
+}
+
+.card-body p {
+  font-family: 'Fondamento-Black', cursive;
+  position: relative;
+}
+
+.card-body h2 {
+  padding-bottom: 1rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.button-card {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.heading-last {
+  position: relative;
+  bottom: 0.3rem;
+}
+
+ .para-last {
+   position: relative;
+   bottom: 0.8rem;
+ }
+
+.button-last {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+/* cta section  */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.cta-heading {
+  font-family: 'Fondamento-Black', cursive;
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+.cta-button {
+  font-family: 'Pangolin', cursive;
+  margin: 4% 2.5%;
+}
+
+/* Footer section */
+
+#footer {
+  padding: 5% 15% 2%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 2% 2.5% 3%;
+  color: #000;
+}
+
+.social-icon:hover {
+  color: #0008;
+}
+
+.footer-text {
+  font-family: 'Pangolin', cursive;
+  font-size: 1.2rem;
+}
+
+/* media queries */
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
